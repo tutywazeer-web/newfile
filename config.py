@@ -19,21 +19,16 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003169580929"))
 
 FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1003139985943"))
 
-FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "-1002566730080"))
+FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "-1003043264664"))
 
-FORCE_SUB_CHANNEL_3 = int(os.environ.get("FORCE_SUB_CHANNEL_3", "-1002434474630"))
+FORCE_SUB_CHANNEL_3 = int(os.environ.get("FORCE_SUB_CHANNEL_3", "-1002566730080"))
 
-FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "-1003043264664"))
+FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "-1002434474630"))
 
 START_PIC = os.environ.get("START_PIC", "https://ibb.co/kg45hQN4")
 F_PIC = os.environ.get("FORCE_PIC", "https://i.ibb.co/671SqSMt/x.jpg")
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "600")) # auto delete in seconds
-AUTO_DELETE_MSG = int(os.getenv("AUTO_DELETE_MSG", "❗️ IMPORTANT ❗️
-
-This Video / File Will Be Deleted In 20 minutes (Due To Copyright Issues).
-
-📌 Please Forward This Video / File To Somewhere Else And Start Downloading There."))
 
 
 PORT = os.environ.get("PORT", "8050")
@@ -70,7 +65,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME :</b>\n{uptime}"
 
 
 
-USER_REPLY_TEXT = "❌Sry You can't Able to Message me !\n\n» My Owner 👉 @Anime_Paradise
+USER_REPLY_TEXT = "❌Sry You can't Able to Message me !\n
 
 START_MSG = os.environ.get("START_MESSAGE", "<b>Hi {first} Friend I am a Advance File Store bot 😈 \n\n I was created by 👉@Anime_Paradise </b>")
 
