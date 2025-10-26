@@ -29,6 +29,11 @@ START_PIC = os.environ.get("START_PIC", "https://ibb.co/kg45hQN4")
 F_PIC = os.environ.get("FORCE_PIC", "https://i.ibb.co/671SqSMt/x.jpg")
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "600")) # auto delete in seconds
+AUTO_DELETE_MSG = int(os.getenv("AUTO_DELETE_MSG", "❗️ IMPORTANT ❗️
+
+This Video / File Will Be Deleted In 20 minutes (Due To Copyright Issues).
+
+📌 Please Forward This Video / File To Somewhere Else And Start Downloading There."))
 
 
 PORT = os.environ.get("PORT", "8050")
