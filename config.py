@@ -65,7 +65,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME :</b>\n{uptime}"
 
 
 
-USER_REPLY_TEXT = "❌Sry You can't Able to Message me !\n
+USER_REPLY_TEXT = "❌Sry You can't Able to Message me !
 
 START_MSG = os.environ.get("START_MESSAGE", "<b>Hi {first} Friend I am a Advance File Store bot 😈 \n\n I was created by 👉@Anime_Paradise </b>")
 
