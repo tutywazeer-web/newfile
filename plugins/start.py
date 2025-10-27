@@ -89,7 +89,7 @@ async def start_command(client: Client, message: Message):
                 pass
 
 
-        k = await client.send_message(chat_id = message.from_user.id, text=F"<b>auto delete message</b>"❗️ <u>𝗜𝗠𝗣𝗢𝗥𝗧𝗔𝗡𝗧</u> ❗️<b></b>\n\nTʜɪs Vɪᴅᴇᴏ / Fɪʟᴇ Wɪʟʟ Bᴇ Dᴇʟᴇᴛᴇᴅ Iɴ 10 Mɪɴᴜᴛᴇs (Dᴜᴇ Tᴏ Cᴏᴘʏʀɪɢʜᴛ Issᴜᴇs).<b>\n\n📌 Pʟᴇᴀsᴇ Fᴏʀᴡᴀʀᴅ Tʜɪs Vɪᴅᴇᴏ / Fɪʟᴇ Tᴏ Sᴏᴍᴇᴡʜᴇʀᴇ Eʟsᴇ Aɴᴅ Sᴛᴀʀᴛ Dᴏᴡɴʟᴏᴀᴅɪɴɢ There.<b>")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b>auto delete message</b>"❗️<b><u>𝗜𝗠𝗣𝗢𝗥𝗧𝗔𝗡𝗧</u> ❗️</b>\n\nTʜɪs Vɪᴅᴇᴏ / Fɪʟᴇ Wɪʟʟ Bᴇ Dᴇʟᴇᴛᴇᴅ Iɴ 10 Mɪɴᴜᴛᴇs (Dᴜᴇ Tᴏ Cᴏᴘʏʀɪɢʜᴛ Issᴜᴇs).\n\n📌 Pʟᴇᴀsᴇ Fᴏʀᴡᴀʀᴅ Tʜɪs Vɪᴅᴇᴏ / Fɪʟᴇ Tᴏ Sᴏᴍᴇᴡʜᴇʀᴇ Eʟsᴇ Aɴᴅ Sᴛᴀʀᴛ Dᴏᴡɴʟᴏᴀᴅɪɴɢ There.")
 
         # Schedule the file deletion
         asyncio.create_task(delete_files(TFT_MSG, client, k))
