@@ -100,14 +100,14 @@ def LOGGER(name: str) -> logging.Logger:
    
 
 class Txt(object):
-    about = f"""<b>➽ My Name :</b> <a href='t.me/setting'><b>[IF] ItachiFileStore 😈</b> </a>
+    about = f"""<b>➽ Mʏ Nᴀᴍᴇ :</b> <a href='t.me/Itachi_Filestore033_bot'><b>Iᴛᴀᴄʜɪ Fɪʟᴇs Sᴛᴏʀᴇ V3🗿</b> </a>
 <b><b>➽ Lᴀɴɢᴜᴀɢᴇ</b> :</b> <a href='https://python.org'><b>Pʏᴛʜᴏɴ 3</b></a>
 <b><b>➽ Lɪʙʀᴀʀʏ</b> :</b> <a href='https://pyrogram.org'><b>Pʏʀᴏɢʀᴀᴍ 2.0</b></a>
 <b><b>➽ Sᴇʀᴠᴇʀ</b> :</b> <a href='https://heroku.com'><b>Hᴇʀᴏᴋᴜ⚡</b></a>
 <b><b>➽ Cʜᴀɴɴᴇʟ</b> :</b> <a href='https://t.me/+Vv6cGnXmVQo0OTk1'><b>Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ🚀</b></a>
 <b><b>➽ Dᴇᴠᴏʟᴏᴘᴇʀ</b> :</b> <a href='https://t.me/Eren_157'>𝐄𝐫𝐞𝐧😾</a>
     
-<b>➽ Bᴏᴛ Mᴀᴅᴇ Fᴏʀ :</b> <b>@Anime_Paradise</b>"""
+<b>➽ Tʜɪs Bᴏᴛ Mᴀᴅᴇ Wᴏʀᴋ Fᴏʀ :</b> <b>@Anime_Hub_Tamil</b>"""
 
 
 # Tech freak 
