@@ -25,8 +25,8 @@ FORCE_SUB_CHANNEL_3 = int(os.environ.get("FORCE_SUB_CHANNEL_3", "-1002566730080"
 
 FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "-1002434474630"))
 
-START_PIC = os.environ.get("START_PIC", "https://ibb.co/kg45hQN4")
-F_PIC = os.environ.get("FORCE_PIC", "https://i.ibb.co/671SqSMt/x.jpg")
+START_PIC = os.environ.get("START_PIC", "https://i.postimg.cc/6pg5R3CW/naruto-itachi-uchiha-aesthetic-anime-desktop-wallpaper-preview.jpg")
+F_PIC = os.environ.get("FORCE_PIC", "https://i.postimg.cc/6pg5R3CW/naruto-itachi-uchiha-aesthetic-anime-desktop-wallpaper-preview.jpg")
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "600")) # auto delete in seconds
 
@@ -100,14 +100,14 @@ def LOGGER(name: str) -> logging.Logger:
    
 
 class Txt(object):
-    about = f"""<b>😈 My Name :</b> <a href='t.me/setting'>[IF] ItachiFileStore 😈 </a>
-<b><b>➽ Lᴀɴɢᴜᴀɢᴇ</b> :</b> <a href='https://python.org'>Python 3</a>
-<b><b>➽ Lɪʙʀᴀʀʏ</b> :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
-<b><b>➽ Sᴇʀᴠᴇʀ</b> :</b> <a href='https://heroku.com'>Heroku</a>
-<b><b>➽ Cʜᴀɴɴᴇʟ</b> :</b> <a href='https://t.me/+Vv6cGnXmVQo0OTk1'>IV BOTS</a>
+    about = f"""<b>➽ My Name :</b> <a href='t.me/setting'><b>[IF] ItachiFileStore 😈</b> </a>
+<b><b>➽ Lᴀɴɢᴜᴀɢᴇ</b> :</b> <a href='https://python.org'><b>Pʏᴛʜᴏɴ 3</b></a>
+<b><b>➽ Lɪʙʀᴀʀʏ</b> :</b> <a href='https://pyrogram.org'><b>Pʏʀᴏɢʀᴀᴍ 2.0</b></a>
+<b><b>➽ Sᴇʀᴠᴇʀ</b> :</b> <a href='https://heroku.com'><b>Hᴇʀᴏᴋᴜ⚡</b></a>
+<b><b>➽ Cʜᴀɴɴᴇʟ</b> :</b> <a href='https://t.me/+Vv6cGnXmVQo0OTk1'><b>Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ🚀</b></a>
 <b><b>➽ Dᴇᴠᴏʟᴏᴘᴇʀ</b> :</b> <a href='https://t.me/Eren_157'>𝐄𝐫𝐞𝐧😾</a>
     
-<b>😈 Bot Made By :</b> @Eren_157"""
+<b>➽ Bᴏᴛ Mᴀᴅᴇ Fᴏʀ :</b> <b>@Anime_Paradise</b>"""
 
 
 # Tech freak 
