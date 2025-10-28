@@ -65,7 +65,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME :</b>\n{uptime}"
 
 
 
-USER_REPLY_TEXT = "❌Sry You can't Able to Message me !"
+USER_REPLY_TEXT = "❌Don't Send Me Messages Directly I'm Only File Share Bot !"
 
 START_MSG = os.environ.get("START_MESSAGE", "<b>Hi {first} Friend I am a Advance File Store bot 😈 \n\n I was created by 👉@Anime_Paradise </b>")
 
@@ -100,12 +100,12 @@ def LOGGER(name: str) -> logging.Logger:
    
 
 class Txt(object):
-    about = f"""<b>😈 My Name :</b> <a href=''>[IF] ItachiFileStore 😈 </a>
-<b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
-<b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
-<b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>📢 Channel :</b> <a href='https://t.me/+Vv6cGnXmVQo0OTk1'>IV BOTS</a>
-<b>🛡️ :</b> <a href='https://t.me/+Vv6cGnXmVQo0OTk1'>IV Developer</a>
+    about = f"""<b>😈 My Name :</b> <a href='t.me/setting'>[IF] ItachiFileStore 😈 </a>
+<b><b>➽ Lᴀɴɢᴜᴀɢᴇ</b> :</b> <a href='https://python.org'>Python 3</a>
+<b><b>➽ Lɪʙʀᴀʀʏ</b> :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
+<b><b>➽ Sᴇʀᴠᴇʀ</b> :</b> <a href='https://heroku.com'>Heroku</a>
+<b><b>➽ Cʜᴀɴɴᴇʟ</b> :</b> <a href='https://t.me/+Vv6cGnXmVQo0OTk1'>IV BOTS</a>
+<b><b>➽ Dᴇᴠᴏʟᴏᴘᴇʀ</b> :</b> <a href='https://t.me/Eren_157'>𝐄𝐫𝐞𝐧😾</a>
     
 <b>😈 Bot Made By :</b> @Eren_157"""
 
