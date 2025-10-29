@@ -5,7 +5,7 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8148883828:AAG3l7ML6HT3kxVzUoenR2R-X1GpC-lsnGo")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8017784148:AAFO7WqHOrfEmnBGJm99ZfGOcaSYt_umw18")
 API_ID = int(os.environ.get("API_ID", "27642526"))
 API_HASH = os.environ.get("API_HASH", "8bc14441805c29b64843165c1d73ce31")
 
@@ -15,15 +15,15 @@ DB_URL = os.environ.get("DB_URL", "mongodb+srv://Itachidb:12345@cluster0.ej2egtd
 DB_NAME = os.environ.get("DB_NAME", "Itachidb")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003169580929"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003261944980"))
 
-FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1003139985943"))
+FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1003277186019"))
 
-FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "-1003043264664"))
+FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "0"))
 
-FORCE_SUB_CHANNEL_3 = int(os.environ.get("FORCE_SUB_CHANNEL_3", "-1002566730080"))
+FORCE_SUB_CHANNEL_3 = int(os.environ.get("FORCE_SUB_CHANNEL_3", "0"))
 
-FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "-1002434474630"))
+FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "0"))
 
 START_PIC = os.environ.get("START_PIC", "https://i.postimg.cc/6pg5R3CW/naruto-itachi-uchiha-aesthetic-anime-desktop-wallpaper-preview.jpg")
 F_PIC = os.environ.get("FORCE_PIC", "https://i.postimg.cc/6pg5R3CW/naruto-itachi-uchiha-aesthetic-anime-desktop-wallpaper-preview.jpg")
@@ -38,7 +38,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 try:
     ADMINS=[6299192020 ,6016699737, 5000956033]
-    for x in (os.environ.get("ADMINS", "6462248335").split()):
+    for x in (os.environ.get("ADMINS", "0").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -100,7 +100,7 @@ def LOGGER(name: str) -> logging.Logger:
    
 
 class Txt(object):
-    about = f"""<b>➽ Mʏ Nᴀᴍᴇ :</b> <a href='t.me/Itachi_Filestore033_bot'><b>Iᴛᴀᴄʜɪ Fɪʟᴇs Sᴛᴏʀᴇ V3🗿</b> </a>
+    about = f"""<b>➽ Mʏ Nᴀᴍᴇ :</b> <a href='t.me/ABTluffy_bot'><b>Iᴛᴀᴄʜɪ Fɪʟᴇs Sᴛᴏʀᴇ V3</b> </a>
 <b><b>➽ Lᴀɴɢᴜᴀɢᴇ</b> :</b> <a href='https://python.org'><b>Pʏᴛʜᴏɴ 3</b></a>
 <b><b>➽ Lɪʙʀᴀʀʏ</b> :</b> <a href='https://pyrogram.org'><b>Pʏʀᴏɢʀᴀᴍ 2.0</b></a>
 <b><b>➽ Sᴇʀᴠᴇʀ</b> :</b> <a href='https://heroku.com'><b>Hᴇʀᴏᴋᴜ⚡</b></a>
